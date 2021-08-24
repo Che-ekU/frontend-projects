@@ -1,0 +1,7 @@
+.display-section {
+  display: flex;
+}
+
+.hide-section {
+  display: none;
+}
