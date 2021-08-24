@@ -1,0 +1,56 @@
+.bg-dec {
+  background-color: #07080c;
+  background-size: cover;
+  height: 100vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: roboto;
+  color: white;
+  padding: 10%;
+}
+
+.btn-dec {
+  min-width: 10%;
+  padding: 14px;
+  min-height: 35px;
+  margin: 10px;
+  border-radius: 7px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.h-dec {
+  font-style: italic;
+}
+
+.img-dec {
+  width: 90%;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .img-dec {
+    width: 70%;
+  }
+}
+
+.p-dec {
+  color: #94a3b8;
+}
+
+.btn1-dec {
+  background-color: #0b69ff;
+  color: white;
+  font-size: 17px;
+}
+
+.btn2-dec {
+  background-color: transparent;
+  color: #94a3b8;
+  border: 1px #94a3b8 solid;
+  font-size: 17px;
+}

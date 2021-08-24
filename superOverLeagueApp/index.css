@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.bg-dec {
+  background-color: #0f172a;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h-dec {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.img-dec {
+  height: 200px;
+  width: 200px;
+}
+
+.img-holder {
+  margin-top: 15px;
+}
+
+body {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .h-dec {
+    font-size: 50px;
+  }
+
+  .img-dec {
+    width: 500px;
+    height: 500px;
+  }
+}

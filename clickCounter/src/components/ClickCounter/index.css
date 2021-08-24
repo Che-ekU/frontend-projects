@@ -1,0 +1,43 @@
+.bg-dec {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #f1f5f8;
+  font-family: roboto;
+  flex-direction: column;
+  padding: 40px;
+  height: 100vh;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.h-dec {
+  font-size: 45px;
+}
+
+.p-dec {
+  color: #2d3a35;
+  font-size: 25px;
+}
+
+.btn-dec {
+  width: 15%;
+  background-color: #007bff;
+  height: 45px;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  color: white;
+  font-size: 22px;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .btn-dec {
+    width: 25%;
+  }
+}
+
+.counter-text {
+  color: #c20a72;
+}

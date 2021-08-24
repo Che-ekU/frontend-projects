@@ -1,0 +1,30 @@
+.bg-dec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+  border-radius: 10px;
+  margin: 20%;
+  padding: 30px;
+  text-align: center;
+}
+
+.dark-bg {
+  background-color: black;
+  color: white;
+}
+
+.light-bg {
+  background-color: white;
+  color: black;
+}
+
+.btn-dec {
+  min-width: 15%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  font-size: 17px;
+  font-weight: 600;
+}
